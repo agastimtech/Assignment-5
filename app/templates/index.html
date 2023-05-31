@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attrition Prediction</title>
+</head>
+<body>
+    <h1>Employee Attrition Prediction</h1>
+    <form action="/" method="post">
+        <label for="satisfaction_level">Satisfaction Level:</label>
+        <input type="text" id="satisfaction_level" name="satisfaction_level" required><br><br>
+        <label for="last_evaluation">Last Evaluation:</label>
+        <input type="text" id="last_evaluation" name="last_evaluation" required><br><br>
+        <label for="number_project">Number of Projects:</label>
+        <input type="number" id="number_project" name="number_project" required><br><br>
+        <label for="average_montly_hours">Average Monthly Hours:</label>
+        <input type="number" id="average_montly_hours" name="average_montly_hours" required><br><br>
+        <label for="time_spend_company">Time Spent in Company (in years):</label>
+        <input type="number" id="time_spend_company" name="time_spend_company" required><br><br>
+        <label for="Work_accident">Work Accident (0 for No, 1 for Yes):</label>
+        <input type="number" id="Work_accident" name="Work_accident" required><br><br>
+        <label for="promotion_last_5years">Promotion in Last 5 Years (0 for No, 1 for Yes):</label>
+        <input type="number" id="promotion_last_5years" name="promotion_last_5years" required><br><br>
+        <label for="Department">Department:</label>
+        <select id="Department" name="Department" required>
+            <option value="sales">Sales</option>
+            <option value="technical">Technical</option>
+            <option value="support">Support</option>
+            <option value="IT">IT</option>
+            <option value="product_mng">Product Management</option>
+            <option value="marketing">Marketing</option>
+            <option value="RandD">Research and Development</option>
+            <option value="accounting">Accounting</option>
+            <option value="hr">HR</option>
+            <option value="management">Management</option>
+        </select><br><br>
+        <label for="salary">Salary:</label>
+        <select id="salary" name="salary" required>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
